@@ -1,4 +1,4 @@
-## Chronolysia 👋
+## About ℹ 
 
 ```
 This project is still in early phase, release date should be between **2026** - 2027.

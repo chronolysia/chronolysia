@@ -30,4 +30,5 @@ In **Chronolysia**, future are yours to shape. The world is waiting—how will y
 
 ## Download & Setup 🖥 
 
-Download the game via: **https://chronolysia.github.io/chronolysia/**. To setup, just open: `setup_chronolysia.exe`.
+- Download the game via: **https://chronolysia.github.io/chronolysia/**.
+- To setup, just open: `setup_chronolysia.exe`.

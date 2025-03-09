@@ -16,7 +16,7 @@ The world of **Chronolysia** is a vibrant tapestry of ancient ruins, futuristic 
 
 In **Chronolysia**, every decision has a ripple effect across players. Whether you’re helping to shape history, rewriting the fate of a forgotten kingdom, or altering the future of an entire civilization, your actions leave an indelible mark on the world. Players can team up with friends or forge their own path in a constantly shifting timeline, where no two journeys are ever the same.
 
-## Key Features
+## Key Features 🗝 
 
 - **Dynamic World**: A living, breathing world that changes based on player actions, evolving in both the past and future.
 - **Endless Exploration**: Discover hidden realms, time-locked dungeons, and artifacts scattered across different epochs.

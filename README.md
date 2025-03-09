@@ -1,14 +1,13 @@
+## Chronolysia 👋
 
 ```
-#This project is still in early phase, release date should be between **2026** - 2027.
+This project is still in early phase, release date should be between **2026** - 2027.
 [█---------] 10%
 
 👌 Offline mode & story mode.
 🔭 Working on multiplayer features.
 
 ```
-
-## Hi there 👋
 
 **Chronolysia** is an expansive, open-world multiplayer game set in a vast, ever-evolving world where time itself is a tangible force. Players step into the shoes of *Chronomancers*, powerful individuals who harness the ability to manipulate time, traveling across different epochs—past, present, and future. 
 To play **chronolysia** download this repo and open `setup_chronolysia.exe`.

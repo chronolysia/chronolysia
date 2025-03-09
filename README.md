@@ -1,5 +1,6 @@
 
-```[█---------] 10%
+```
+[█---------] 10%
 
 👌 Offline mode & story mode.
 🔭 Working on multiplayer features.

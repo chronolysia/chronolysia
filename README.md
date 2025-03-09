@@ -20,4 +20,4 @@ In **Chronolysia**, future are yours to shape. The world is waiting—how will y
 👌 Offline mode & story mode.
 🔭 Working on multiplayer features.
 
-Download the game via: (https://chronolysia.github.io/chronolysia/)
+Download the game via: *https://chronolysia.github.io/chronolysia/*

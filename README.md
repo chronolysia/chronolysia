@@ -20,6 +20,7 @@ In **Chronolysia**, future are yours to shape. The world is waiting—how will y
 Download the game via: *https://chronolysia.github.io/chronolysia/*
 
 
-[####------] 40%
+[█-------] 10%
+
 👌 Offline mode & story mode.
 🔭 Working on multiplayer features.

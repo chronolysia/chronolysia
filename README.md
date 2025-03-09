@@ -1,7 +1,7 @@
 # Chronolysia: Exploration to the unknown
 
 ```
-This project is still in early phase, release date should be between **2026** - 2027.
+This project is still in early phase, if I finish it, release date should be between around 2027.
 [█---------] 10%
 
 👌 Offline mode & story mode.

@@ -1,3 +1,5 @@
+
+
 ## About ℹ 
 
 ```
@@ -19,11 +21,13 @@ In **Chronolysia**, every decision has a ripple effect across players. Whether y
 ## Key Features 🗝 
 
 - **Dynamic World**: A living, breathing world that changes based on player actions, evolving in both the past and future.
-- **Endless Exploration**: Discover hidden realms, time-locked dungeons, and artifacts scattered across different epochs.
+- **Vast Open World**: Explore diverse regions, from ancient ruins to futuristic cities, each with its own story to tell.
 - **Multiplayer**: Team up with friends to explore Chronolysia.
 - **Rich Storytelling**: Dive into a deep narrative full of twists, where ancient prophecies, powerful enemies, and shifting allegiances await.
 - **Clan Wars**: Join or create a clan to get unique abilities, missions, and goals.
 
 In **Chronolysia**, future are yours to shape. The world is waiting—how will you leave your mark on time?
+
+## Download & Setup
 
 Download the game via: **https://chronolysia.github.io/chronolysia/**. To setup, just open: `setup_chronolysia.exe`.

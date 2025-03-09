@@ -1,3 +1,9 @@
+[█---------] 10%
+
+👌 Offline mode & story mode.
+🔭 Working on multiplayer features.
+
+
 ## Hi there 👋
 
 **Chronolysia** is an expansive, open-world multiplayer game set in a vast, ever-evolving world where time itself is a tangible force. Players step into the shoes of *Chronomancers*, powerful individuals who harness the ability to manipulate time, traveling across different epochs—past, present, and future. 
@@ -18,9 +24,3 @@ In **Chronolysia**, every decision has a ripple effect across players. Whether y
 In **Chronolysia**, future are yours to shape. The world is waiting—how will you leave your mark on time?
 
 Download the game via: *https://chronolysia.github.io/chronolysia/*
-
-
-[█-------] 10%
-
-👌 Offline mode & story mode.
-🔭 Working on multiplayer features.

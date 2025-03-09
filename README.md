@@ -17,7 +17,9 @@ In **Chronolysia**, every decision has a ripple effect across players. Whether y
 
 In **Chronolysia**, future are yours to shape. The world is waiting—how will you leave your mark on time?
 
+Download the game via: *https://chronolysia.github.io/chronolysia/*
+
+
+[####------] 40%
 👌 Offline mode & story mode.
 🔭 Working on multiplayer features.
-
-Download the game via: *https://chronolysia.github.io/chronolysia/*

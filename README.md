@@ -1,5 +1,6 @@
 
 ```
+This project is still in early phase, release date should be between **2026 - 2027.**
 [█---------] 10%
 
 👌 Offline mode & story mode.

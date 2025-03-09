@@ -26,5 +26,4 @@ In **Chronolysia**, every decision has a ripple effect across players. Whether y
 
 In **Chronolysia**, future are yours to shape. The world is waiting—how will you leave your mark on time?
 
-Download the game via: **https://chronolysia.github.io/chronolysia/**.
-To play **Chronolysia** open the file: `setup_chronolysia.exe`.
+Download the game via: **https://chronolysia.github.io/chronolysia/**. To setup, just open: `setup_chronolysia.exe`.

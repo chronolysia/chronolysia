@@ -12,7 +12,6 @@ This project is still in early phase, if I finish it, release date should be bet
 ## About ℹ 
 
 **Chronolysia** is an expansive, open-world multiplayer game set in a vast, ever-evolving world where time itself is a tangible force. Players step into the shoes of *Chronomancers*, powerful individuals who harness the ability to manipulate time, traveling across different epochs—past, present, and future. 
-To play **chronolysia** download this repo and open `setup_chronolysia.exe`.
 
 The world of **Chronolysia** is a vibrant tapestry of ancient ruins, futuristic cities, mystical forests, and timeless landscapes, all interconnected by the mysterious *Chrono Streams* that transcend the boundaries of time. Players can explore these realms, uncovering lost civilizations, forging alliances, and battling ancient forces that threaten to unravel the fabric of reality itself.
 

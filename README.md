@@ -1,5 +1,6 @@
 # Chronolysia: Exploration to the unknown
-![Logo Image](./img/chronolysia.png)
+<img src="./img/chronolysia.png" alt="Example Image" width="100"/>
+
 ```
 This project is still in early phase, if I finish it, release date should be between around 2027.
 [█---------] 10%

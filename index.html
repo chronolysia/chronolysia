@@ -25,116 +25,97 @@
 <link rel="icon" type="image/x-icon" href="https://chronolysia.github.io/chronolysia/img/chronolysia.png"/>
 <style>
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f9;
-  color: #333;
-  display: flex;
-  justify-content: center;
-  margin: 0;
-  padding: 10px 0;
+font-family: Arial, sans-serif;
+background-color: #f4f4f9;
+color: #333;
+display: flex;
+justify-content: center;
+margin: 0;
+padding: 10px 0;
 }
-
 .container {
-  max-width: 800px;
-  padding: 20px;
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+max-width: 800px;
+padding: 20px;
+background-color: #fff;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
 h1 {
-  font-size: 2.5rem;
-  margin-bottom: 20px;
+font-size: 2.5rem;
+margin-bottom: 20px;
 }
-
 .btn {
-  margin: 8px;
-  font-size: 1.1rem;
-  padding: 12px 30px;
-  border-radius: 50px;
-  display: inline-block;
-  text-align: center;
-  text-decoration: none;
-  transition: transform 0.3s, box-shadow 0.3s;
+margin: 8px;
+font-size: 1.1rem;
+padding: 12px 30px;
+border-radius: 50px;
+display: inline-block;
+text-align: center;
+text-decoration: none;
+transition: transform 0.3s, box-shadow 0.3s;
 }
 .btn.hidden {
-  display: none;
-  pointer-events: none;
+display: none;
+pointer-events: none;
 }
 .btn:hover {
-  transform: scale(1.06);
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+transform: scale(1.06);
+box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
 }
-
 .btn:active {
-  transform: scale(1.1);
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+transform: scale(1.1);
+box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
 }
-
 .btn-primary { background-color: #007bff; color: white; }
 .btn-primary:hover { background-color: #0056b3; }
-
 .btn-secondary { background-color: #6c757d; color: white; }
 .btn-secondary:hover { background-color: #5a6268; }
-
 .btn-danger { background-color: #dc3545; color: white; }
 .btn-danger:hover { background-color: #c82333; }
-
 .btn-success { background-color: #28a745; color: white; }
 .btn-success:hover { background-color: #218838; }
-
 .btn-warning { background-color: #ffc107; color: white; }
 .btn-warning:hover { background-color: #e0a800; }
-
 .btn-info { background-color: #17a2b8; color: white; }
 .btn-info:hover { background-color: #138496; }
-
 .btn-light { background-color: #f8f9fa; color: black; }
 .btn-light:hover { background-color: #dae0e5; }
-
 .btn-dark { background-color: #343a40; color: white; }
 .btn-dark:hover { background-color: #23272b; }
-
 .btn-primary-alt { background-color: #6610f2; color: white; }
 .btn-primary-alt:hover { background-color: #520dc2; }
-
 .text-center {
-  text-align: center;
+text-align: center;
 }
-
 small {
-  font-size: 0.8rem;
-  line-height: 10px;
+font-size: 0.8rem;
+line-height: 10px;
 }
-
 .d-flex {
-  display: flex;
-  flex-grow: 1;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 15px;
+display: flex;
+flex-grow: 1;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 15px;
 }
-
 label {
-  font-size: 1.1rem;
-  font-weight: bold;
-  margin-right: 15px;
-  color: #555;
+font-size: 1.1rem;
+font-weight: bold;
+margin-right: 15px;
+color: #555;
 }
-
 input {
-  padding: 8px 12px;
-  font-size: 1rem;
-  border-radius: 5px;
-  border: 1px solid #ddd;
-  width: 100%;
-  max-width: 250px;
-  outline: none;
-  transition: border-color 0.3s ease;
+padding: 8px 12px;
+font-size: 1rem;
+border-radius: 5px;
+border: 1px solid #ddd;
+width: 100%;
+max-width: 250px;
+outline: none;
+transition: border-color 0.3s ease;
 }
-
 input:focus {
-  border-color: #007bff;
+border-color: #007bff;
 }
 img {
 width: 200px;
@@ -144,52 +125,45 @@ object-position: center;
 object-fit: cover;
 }
 #cookie-alert {
-  background-color: #ffefef;
-    color: rgb(30, 30, 30);
-    padding: 15px;
-    text-align: center;
-    font-family: Arial, sans-serif;
-    font-size: 14px;
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border: 3px solid #ff7b7b;
-    border-radius: 10px;
-    margin-bottom: 10px;
+background-color: #ffefef;
+color: rgb(30, 30, 30);
+padding: 15px;
+text-align: center;
+font-family: Arial, sans-serif;
+font-size: 14px;
+margin-top: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border: 3px solid #ff7b7b;
+border-radius: 10px;
+margin-bottom: 10px;
 }
-
 #cookie-alert a {
-    color: #0055ff;
-    text-decoration: none;
+color: #0055ff;
+text-decoration: none;
 }
-
 #cookie-alert a:hover {
-    text-decoration: underline;
+text-decoration: underline;
 }
 .content {
-    margin-bottom: 50px;
+margin-bottom: 50px;
 }
-
-@media (max-width: 768px) {
-  h1 {
-    font-size: 2rem;
-  }
-  .btn {
-    font-size: 1rem;
-    padding: 8px 16px;
-  }
-}
+@media (max-width: 768px) {h1 {font-size: 2rem;}.btn {font-size: 1rem;padding: 8px 16px;}}
 </style>
 </head>
 <body>
 <div class="container">
-  <h4 class="text-center"><img src="https://chronolysia.github.io/chronolysia/img/chronolysia.png" alt=""/><br>Exploration to the Unknown</h4>
+  <h4 class="text-center">
+    <img src="https://chronolysia.github.io/chronolysia/img/chronolysia.png" alt=""/><br>Exploration to the Unknown
+  </h4>
   <div id="cookie-alert">
-    <p>By using chronolysia or it's services, you accept our <a href="/privacy-policy" target="_blank">Cookies and Privacy Policy</a>.</p>
+    <p>By using chronolysia or its services, you accept our <a href="https://raw.githubusercontent.com/chronolysia/chronolysia/refs/heads/main/LICENSE" target="_blank">Cookies and Privacy Policy</a>.</p>
   </div>
-  <div class="text-center"><small class="text-center">Not redirected? Select your language.</small></div>
+  <div class="text-center">
+    <small>Select your language below:</small>
+  </div>
   <div class="d-flex">
     <label for="filterlang">Languages</label>
     <input type="text" id="filterlang" placeholder="Filter languages..."/>
@@ -271,7 +245,7 @@ object-fit: cover;
     <a href="./sd/" class="btn btn-info">سنڌی</a>
   </div>
   <div class="text-center">
-    <h3>Not these language? You can use google translate API for your language.</h3>
+    <h3>Not these languages? You can use Google Translate API for your language.</h3>
     <p>Errors may be possible since this is not written by us!</p>
     <a href="./en/?google_translate" class="btn btn-primary-alt">Google Translate</a>
     <hr>

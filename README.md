@@ -1,5 +1,5 @@
 
-# <img src="./img/chronolysia.png" alt="Example Image" height="100"/> | Exploration to the unknown
+# <img src="./img/chronolysia.png" alt="Example Image" height="50"/> | Exploration to the unknown
 
 ```
 This project is still in early phase, if I finish it, release date should be between around 2027.

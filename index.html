@@ -54,8 +54,8 @@ h1 {
   border-radius: 50px;
   display: inline-block;
   text-align: center;
-  transition: transform 0.3s, box-shadow 0.3s;
   text-decoration: none;
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 .btn.hidden {
   display: none;
@@ -104,6 +104,7 @@ h1 {
 
 small {
   font-size: 0.8rem;
+  line-height: 10px;
 }
 
 .d-flex {
@@ -142,6 +143,35 @@ height: 80px;
 object-position: center;
 object-fit: cover;
 }
+#cookie-alert {
+  background-color: #ffefef;
+    color: rgb(30, 30, 30);
+    padding: 15px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 3px solid #ff7b7b;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#cookie-alert a {
+    color: #0055ff;
+    text-decoration: none;
+}
+
+#cookie-alert a:hover {
+    text-decoration: underline;
+}
+.content {
+    margin-bottom: 50px;
+}
+
 @media (max-width: 768px) {
   h1 {
     font-size: 2rem;
@@ -155,9 +185,13 @@ object-fit: cover;
 </head>
 <body>
 <div class="container">
-  <h1 class="text-center"><img src="https://chronolysia.github.io/chronolysia/img/chronolysia.png" alt=""/><br><small>Not redirected? Select your language.</small></h1>
+  <h4 class="text-center"><img src="https://chronolysia.github.io/chronolysia/img/chronolysia.png" alt=""/><br>Exploration to the Unknown</h4>
+  <div id="cookie-alert">
+    <p>By using chronolysia or it's services, you accept our <a href="/privacy-policy" target="_blank">Cookies and Privacy Policy</a>.</p>
+  </div>
+  <div class="text-center"><small class="text-center">Not redirected? Select your language.</small></div>
   <div class="d-flex">
-    <label for="filterlang">Showing (<span>100</span> / 100)</label>
+    <label for="filterlang">Languages</label>
     <input type="text" id="filterlang" placeholder="Filter languages..."/>
   </div>
   <hr>
@@ -222,25 +256,22 @@ object-fit: cover;
     <a href="./km/" class="btn btn-info">ខ្មែរ</a>
     <a href="./lo/" class="btn btn-light">ລາວ</a>
     <a href="./my/" class="btn btn-dark">မြန်မာ</a>
-    <a href="./nep/" class="btn btn-primary-alt">नेपाली</a>
+    <a href="./np/" class="btn btn-primary-alt">नेपाली</a>
     <a href="./am/" class="btn btn-primary">አማርኛ</a>
     <a href="./mi/" class="btn btn-secondary">Māori</a>
     <a href="./ba/" class="btn btn-danger">Башҡорт</a>
     <a href="./sq/" class="btn btn-warning">Shqip</a>
-    <a href="./zh-tw/" class="btn btn-info">中文 (繁體)</a>
     <a href="./az/" class="btn btn-light">Azərbaycan</a>
     <a href="./af/" class="btn btn-dark">Afrikaans</a>
     <a href="./be/" class="btn btn-primary-alt">Беларуская</a>
     <a href="./ps/" class="btn btn-primary">پښتو</a>
     <a href="./uz/" class="btn btn-secondary">O'zbek</a>
     <a href="./mn/" class="btn btn-danger">Монгол</a>
-    <a href="./nep/" class="btn btn-success">नेपाली</a>
     <a href="./yi/" class="btn btn-warning">Yiddish</a>
     <a href="./sd/" class="btn btn-info">سنڌی</a>
   </div>
   <div class="text-center">
-    <hr>
-    <h3>None of these language? You can use google translate API for your language.</h3>
+    <h3>Not these language? You can use google translate API for your language.</h3>
     <p>Errors may be possible since this is not written by us!</p>
     <a href="./en/?google_translate" class="btn btn-primary-alt">Google Translate</a>
     <hr>
@@ -261,7 +292,6 @@ searchInput.addEventListener('input', function() {
     }
   });
 });
-
 </script>
 </body>
 </html>

@@ -1,87 +1,267 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="title" content="Chronolysia | Exploration to the Unknown">
-  <meta name="description" content="Select your language between English, Japanese, French, German...">
-  <meta name="keywords" content="Chronolysia, exploration, unknown, game, multiplayer, language selection, English, French, German, Japanese, multilingual">
-  <meta name="author" content="Chronolysia Team">
-  <meta property="og:title" content="Chronolysia | Exploration to the Unknown">
-  <meta property="og:description" content="Select your language between English, Japanese, French, German...">
-  <meta property="og:image" content="https://chronolysia.github.io/chronolysia/img/logo.png">
-  <meta property="og:url" content="https://chronolysia.github.io/chronolysia/">
-  <meta property="og:type" content="website">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Chronolysia">
-  <meta name="twitter:description" content="Exploration to the Unknown">
-  <meta name="twitter:image" content="https://chronolysia.github.io/chronolysia/img/logo.png">
-  <meta name="twitter:site" content="@chronolysia_dev">
-  <meta name="robots" content="index, follow">
-  <meta name="googlebot" content="index, follow">
-  <meta name="language" content="English">
-  <meta name="rating" content="General">
-  <title>Chronolysia | Exploration to the Unknown</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f9;
-      color: #333;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      margin: 0;
-    }
-    .container {
-      max-width: 600px;
-      padding: 20px;
-      background-color: #fff;
-      border-radius: 8px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
-    h1 {
-      font-size: 2.5rem;
-      margin-bottom: 20px;
-    }
-    .btn {
-      margin: 10px;
-      font-size: 1.1rem;
-      padding: 12px 30px;
-      border-radius: 50px;
-      display: inline-block;
-      text-align: center;
-      transition: transform 0.3s, box-shadow 0.3s;
-      text-decoration: none;
-    }
-    .btn:hover { transform: scale(1.06); box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); }
-    .btn:active { transform: scale(1.1); box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); }
-    .btn-primary { background-color: #007bff; color: white; }
-    .btn-primary:hover { background-color: #0056b3; }
-    .btn-secondary { background-color: #6c757d; color: white; }
-    .btn-secondary:hover { background-color: #5a6268; }
-    .btn-danger { background-color: #dc3545; color: white; }
-    .btn-danger:hover { background-color: #c82333; }
-    .btn-success { background-color: #28a745; color: white; }
-    .btn-success:hover { background-color: #218838; }
-    .text-center { text-align: center; }
-    small { font-size: 0.8rem; }
-    @media (max-width: 768px) {
-      h1 { font-size: 2rem; }
-      .btn { font-size: 1rem; padding: 8px 16px; }
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="title" content="Chronolysia | Exploration to the Unknown">
+<meta name="description" content="Select your language between English, Japanese, French, German...">
+<meta name="keywords" content="Chronolysia, exploration, unknown, game, multiplayer, language selection, English, French, German, Japanese, multilingual">
+<meta name="author" content="Chronolysia Team">
+<meta property="og:title" content="Chronolysia | Exploration to the Unknown">
+<meta property="og:description" content="Select your language between English, Japanese, French, German...">
+<meta property="og:image" content="https://chronolysia.github.io/chronolysia/img/chronolysia.png">
+<meta property="og:url" content="https://chronolysia.github.io/chronolysia/">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Chronolysia">
+<meta name="twitter:description" content="Exploration to the Unknown">
+<meta name="twitter:image" content="https://chronolysia.github.io/chronolysia/img/chronolysia.png">
+<meta name="twitter:site" content="@chronolysia_dev">
+<meta name="robots" content="index, follow">
+<meta name="googlebot" content="index, follow">
+<meta name="language" content="English">
+<meta name="rating" content="General">
+<title>Chronolysia | Exploration to the Unknown</title>
+<link rel="icon" type="image/x-icon" href="https://chronolysia.github.io/chronolysia/img/chronolysia.png"/>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.container {
+  max-width: 800px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.btn {
+  margin: 8px;
+  font-size: 1.1rem;
+  padding: 12px 30px;
+  border-radius: 50px;
+  display: inline-block;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-decoration: none;
+}
+.btn.hidden {
+  display: none;
+  pointer-events: none;
+}
+.btn:hover {
+  transform: scale(1.06);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.btn:active {
+  transform: scale(1.1);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.btn-primary { background-color: #007bff; color: white; }
+.btn-primary:hover { background-color: #0056b3; }
+
+.btn-secondary { background-color: #6c757d; color: white; }
+.btn-secondary:hover { background-color: #5a6268; }
+
+.btn-danger { background-color: #dc3545; color: white; }
+.btn-danger:hover { background-color: #c82333; }
+
+.btn-success { background-color: #28a745; color: white; }
+.btn-success:hover { background-color: #218838; }
+
+.btn-warning { background-color: #ffc107; color: white; }
+.btn-warning:hover { background-color: #e0a800; }
+
+.btn-info { background-color: #17a2b8; color: white; }
+.btn-info:hover { background-color: #138496; }
+
+.btn-light { background-color: #f8f9fa; color: black; }
+.btn-light:hover { background-color: #dae0e5; }
+
+.btn-dark { background-color: #343a40; color: white; }
+.btn-dark:hover { background-color: #23272b; }
+
+.btn-primary-alt { background-color: #6610f2; color: white; }
+.btn-primary-alt:hover { background-color: #520dc2; }
+
+.text-center {
+  text-align: center;
+}
+
+small {
+  font-size: 0.8rem;
+}
+
+.d-flex {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+label {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-right: 15px;
+  color: #555;
+}
+
+input {
+  padding: 8px 12px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  width: 100%;
+  max-width: 250px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  border-color: #007bff;
+}
+img {
+width: 200px;
+max-width: 100%;
+height: 80px;
+object-position: center;
+object-fit: cover;
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+  .btn {
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
+}
+</style>
 </head>
 <body>
-  <div class="container">
-    <h1 class="text-center">Welcome to Chronolysia<br><small>Not redirected? Select your language.</small></h1>
-    <p class="text-center">Select your language:</p>
-    <div class="text-center">
-      <a href="./en/" class="btn btn-primary">English</a>
-      <a href="./fr/" class="btn btn-secondary">Français</a>
-      <a href="./ja/" class="btn btn-danger">日本語</a>
-      <a href="./de/" class="btn btn-success">Deutsch</a>
-    </div>
+<div class="container">
+  <h1 class="text-center"><img src="https://chronolysia.github.io/chronolysia/img/chronolysia.png" alt=""/><br><small>Not redirected? Select your language.</small></h1>
+  <div class="d-flex">
+    <label for="filterlang">Showing (<span>100</span> / 100)</label>
+    <input type="text" id="filterlang" placeholder="Filter languages..."/>
   </div>
+  <hr>
+  <div class="text-center" id="list_of_lang">
+    <a href="./en/" class="btn btn-primary">English</a>
+    <a href="./zh/" class="btn btn-secondary">中文</a>
+    <a href="./hi/" class="btn btn-danger">हिन्दी</a>
+    <a href="./es/" class="btn btn-success">Español</a>
+    <a href="./fr/" class="btn btn-warning">Français</a>
+    <a href="./ar/" class="btn btn-info">العربية</a>
+    <a href="./bn/" class="btn btn-light">বাংলা</a>
+    <a href="./pt/" class="btn btn-dark">Português</a>
+    <a href="./ru/" class="btn btn-primary-alt">Русский</a>
+    <a href="./ja/" class="btn btn-primary">日本語</a>
+    <a href="./de/" class="btn btn-secondary">Deutsch</a>
+    <a href="./ko/" class="btn btn-danger">한국어</a>
+    <a href="./it/" class="btn btn-success">Italiano</a>
+    <a href="./tr/" class="btn btn-warning">Türkçe</a>
+    <a href="./pl/" class="btn btn-info">Polski</a>
+    <a href="./uk/" class="btn btn-light">Українська</a>
+    <a href="./ro/" class="btn btn-dark">Română</a>
+    <a href="./nl/" class="btn btn-primary-alt">Nederlands</a>
+    <a href="./vi/" class="btn btn-primary">Tiếng Việt</a>
+    <a href="./th/" class="btn btn-secondary">ไทย</a>
+    <a href="./el/" class="btn btn-danger">Ελληνικά</a>
+    <a href="./ms/" class="btn btn-warning">Bahasa Melayu</a>
+    <a href="./fa/" class="btn btn-info">فارسی</a>
+    <a href="./sv/" class="btn btn-light">Svenska</a>
+    <a href="./no/" class="btn btn-dark">Norsk</a>
+    <a href="./da/" class="btn btn-primary-alt">Dansk</a>
+    <a href="./fi/" class="btn btn-primary">Suomi</a>
+    <a href="./cs/" class="btn btn-secondary">Čeština</a>
+    <a href="./hu/" class="btn btn-danger">Magyar</a>
+    <a href="./sk/" class="btn btn-success">Slovenčina</a>
+    <a href="./he/" class="btn btn-warning">עברית</a>
+    <a href="./bg/" class="btn btn-info">Български</a>
+    <a href="./sr/" class="btn btn-light">Srpski</a>
+    <a href="./hr/" class="btn btn-dark">Hrvatski</a>
+    <a href="./bs/" class="btn btn-primary-alt">Bosanski</a>
+    <a href="./sl/" class="btn btn-primary">Slovenščina</a>
+    <a href="./et/" class="btn btn-secondary">Eesti</a>
+    <a href="./la/" class="btn btn-danger">Latina</a>
+    <a href="./sw/" class="btn btn-success">Kiswahili</a>
+    <a href="./sq/" class="btn btn-warning">Shqip</a>
+    <a href="./ca/" class="btn btn-info">Català</a>
+    <a href="./mt/" class="btn btn-light">Maltese</a>
+    <a href="./is/" class="btn btn-dark">Íslenska</a>
+    <a href="./tl/" class="btn btn-primary-alt">Tagalog</a>
+    <a href="./lv/" class="btn btn-primary">Latviešu</a>
+    <a href="./lt/" class="btn btn-secondary">Lietuvių</a>
+    <a href="./ne/" class="btn btn-success">नेपाली</a>
+    <a href="./pa/" class="btn btn-warning">ਪੰਜਾਬੀ</a>
+    <a href="./te/" class="btn btn-info">తెలుగు</a>
+    <a href="./ml/" class="btn btn-light">മലയാളം</a>
+    <a href="./mr/" class="btn btn-dark">मराठी</a>
+    <a href="./ta/" class="btn btn-primary-alt">தமிழ்</a>
+    <a href="./kn/" class="btn btn-primary">ಕನ್ನಡ</a>
+    <a href="./gu/" class="btn btn-secondary">ગુજરાતી</a>
+    <a href="./or/" class="btn btn-danger">ଓଡ଼ିଆ</a>
+    <a href="./si/" class="btn btn-success">සිංහල</a>
+    <a href="./hy/" class="btn btn-warning">Հայերեն</a>
+    <a href="./km/" class="btn btn-info">ខ្មែរ</a>
+    <a href="./lo/" class="btn btn-light">ລາວ</a>
+    <a href="./my/" class="btn btn-dark">မြန်မာ</a>
+    <a href="./nep/" class="btn btn-primary-alt">नेपाली</a>
+    <a href="./am/" class="btn btn-primary">አማርኛ</a>
+    <a href="./mi/" class="btn btn-secondary">Māori</a>
+    <a href="./ba/" class="btn btn-danger">Башҡорт</a>
+    <a href="./sq/" class="btn btn-warning">Shqip</a>
+    <a href="./zh-tw/" class="btn btn-info">中文 (繁體)</a>
+    <a href="./az/" class="btn btn-light">Azərbaycan</a>
+    <a href="./af/" class="btn btn-dark">Afrikaans</a>
+    <a href="./be/" class="btn btn-primary-alt">Беларуская</a>
+    <a href="./ps/" class="btn btn-primary">پښتو</a>
+    <a href="./uz/" class="btn btn-secondary">O'zbek</a>
+    <a href="./mn/" class="btn btn-danger">Монгол</a>
+    <a href="./nep/" class="btn btn-success">नेपाली</a>
+    <a href="./yi/" class="btn btn-warning">Yiddish</a>
+    <a href="./sd/" class="btn btn-info">سنڌی</a>
+  </div>
+  <div class="text-center">
+    <hr>
+    <h3>None of these language? You can use google translate API for your language.</h3>
+    <p>Errors may be possible since this is not written by us!</p>
+    <a href="./en/?google_translate" class="btn btn-primary-alt">Google Translate</a>
+    <hr>
+    <p>&copy;2025, <a href="https://github.com/chronolysia">Chronolysia</a>.</p>
+  </div>
+</div>
+<script>
+const searchInput = document.getElementById('filterlang');
+const items = document.querySelectorAll('#list_of_lang a');
+searchInput.addEventListener('input', function() {
+  const filterText = searchInput.value.toLowerCase();
+  items.forEach(item => {
+    const text = item.textContent.toLowerCase();
+    if (text.includes(filterText)) {
+      item.classList.remove('hidden');
+    } else {
+      item.classList.add('hidden');
+    }
+  });
+});
+
+</script>
 </body>
 </html>

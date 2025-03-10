@@ -1,6 +1,6 @@
-<img src="./img/chronolysia.png" alt="Example Image" width="200"/>
+# Chronolysia | Exploration to the unknown
 
-# Exploration to the unknown
+<img src="./img/chronolysia.png" alt="Example Image" width="200"/>
 
 ## Development phase 🤔 
 

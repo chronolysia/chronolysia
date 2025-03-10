@@ -1,5 +1,5 @@
-
 <img src="./img/chronolysia.png" alt="Example Image" width="200"/>
+
 ## Exploration to the unknown
 
 ```

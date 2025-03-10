@@ -1,6 +1,8 @@
 <img src="./img/chronolysia.png" alt="Example Image" width="200"/>
 
-## Exploration to the unknown
+#Exploration to the unknown
+
+## Development phase 🤔 
 
 ```
 This project is still in early phase, if I finish it, release date should be between around 2027.

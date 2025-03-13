@@ -128,145 +128,18 @@
 <title>Chronolysia | Exploration to the Unknown</title>
 <link rel="icon" type="image/x-icon" href="https://chronolysia.github.io/chronolysia/img/chronolysia.png"/>
 <style>
-body {
-font-family: Arial, sans-serif;
-background-color: #f4f4f9;
-color: #333;
-display: flex;
-justify-content: center;
-margin: 0;
-padding: 10px 0;
-}
-.container {
-max-width: 800px;
-padding: 20px;
-background-color: #fff;
-border-radius: 8px;
-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-h1 {
-font-size: 2.5rem;
-margin-bottom: 20px;
-}
-.btn {
-margin: 8px;
-font-size: 1.1rem;
-padding: 12px 30px;
-border-radius: 50px;
-display: inline-block;
-text-align: center;
-text-decoration: none;
-transition: transform 0.3s, box-shadow 0.3s;
-}
-.btn.hidden {
-display: none;
-pointer-events: none;
-}
-.btn:hover {
-transform: scale(1.06);
-box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
-}
-.btn:active {
-transform: scale(1.1);
-box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
-}
-.btn-primary { background-color: #007bff; color: white; }
-.btn-primary:hover { background-color: #0056b3; }
-.btn-secondary { background-color: #6c757d; color: white; }
-.btn-secondary:hover { background-color: #5a6268; }
-.btn-danger { background-color: #dc3545; color: white; }
-.btn-danger:hover { background-color: #c82333; }
-.btn-success { background-color: #28a745; color: white; }
-.btn-success:hover { background-color: #218838; }
-.btn-warning { background-color: #ffc107; color: white; }
-.btn-warning:hover { background-color: #e0a800; }
-.btn-info { background-color: #17a2b8; color: white; }
-.btn-info:hover { background-color: #138496; }
-.btn-light { background-color: #f8f9fa; color: black; }
-.btn-light:hover { background-color: #dae0e5; }
-.btn-dark { background-color: #343a40; color: white; }
-.btn-dark:hover { background-color: #23272b; }
-.btn-primary-alt { background-color: #6610f2; color: white; }
-.btn-primary-alt:hover { background-color: #520dc2; }
-.text-center {
-text-align: center;
-}
-small {
-font-size: 0.8rem;
-line-height: 10px;
-}
-.d-flex {
-display: flex;
-flex-grow: 1;
-justify-content: space-between;
-align-items: center;
-margin-bottom: 15px;
-}
-label {
-font-size: 1.1rem;
-font-weight: bold;
-margin-right: 15px;
-color: #555;
-}
-input {
-padding: 8px 12px;
-font-size: 1rem;
-border-radius: 5px;
-border: 1px solid #ddd;
-width: 100%;
-max-width: 250px;
-outline: none;
-transition: border-color 0.3s ease;
-}
-input:focus {
-border-color: #007bff;
-}
-img {
-width: 200px;
-max-width: 100%;
-height: 80px;
-object-position: center;
-object-fit: cover;
-}
-#cookie-alert {
-background-color: #ffefef;
-color: rgb(30, 30, 30);
-padding: 15px;
-text-align: center;
-font-family: Arial, sans-serif;
-font-size: 14px;
-margin-top: 20px;
-display: flex;
-justify-content: center;
-align-items: center;
-gap: 10px;
-border: 3px solid #ff7b7b;
-border-radius: 10px;
-margin-bottom: 10px;
-}
-#cookie-alert a {
-color: #0055ff;
-text-decoration: none;
-}
-#cookie-alert a:hover {
-text-decoration: underline;
-}
-.content {
-margin-bottom: 50px;
-}
+body{font-family:Arial,sans-serif;background-color:#f4f4f9;color:#333;display:flex;justify-content:center;margin:0;padding:10px 0}.container{max-width:800px;padding:20px;background-color:#fff;border-radius:8px;box-shadow:0 4px 8px rgba(0,0,0,0.1)}h1{font-size:2.5rem;margin-bottom:20px}#list_of_lang{line-height:20px;padding:auto}.btn{display:inline-block;width:fit-content;margin:8px;font-size:1.1rem;padding:12px 30px;border-radius:50px;text-align:center;text-decoration:none;transition:all 0.1s ease-in-out}.btn.hidden{display:none}.btn:hover{transform:scale(1.06);box-shadow:0 6px 15px rgba(0,0,0,0.15)}.btn:active{transform:scale(1.1);box-shadow:0 6px 15px rgba(0,0,0,0.15)}.btn-primary{background-color:#007bff;color:white}.btn-primary:hover{background-color:#0056b3}.btn-secondary{background-color:#6c757d;color:white}.btn-secondary:hover{background-color:#5a6268}.btn-danger{background-color:#dc3545;color:white}.btn-danger:hover{background-color:#c82333}.btn-success{background-color:#28a745;color:white}.btn-success:hover{background-color:#218838}.btn-warning{background-color:#ffc107;color:white}.btn-warning:hover{background-color:#e0a800}.btn-info{background-color:#17a2b8;color:white}.btn-info:hover{background-color:#138496}.btn-light{background-color:#f8f9fa;color:black}.btn-light:hover{background-color:#dae0e5}.btn-dark{background-color:#343a40;color:white}.btn-dark:hover{background-color:#23272b}.btn-primary-alt{background-color:#6610f2;color:white}.btn-primary-alt:hover{background-color:#520dc2}.text-center{text-align:center}small{font-size:0.8rem;line-height:10px}.d-flex{display:flex;flex-grow:1;justify-content:space-between;align-items:center;margin-bottom:15px}label{font-size:1.1rem;font-weight:bold;margin-right:15px;color:#555}input{padding:8px 12px;font-size:1rem;border-radius:5px;border:1px solid #ddd;width:100%;max-width:250px;outline:none;transition:border-color 0.3s ease}input:focus{border-color:#007bff}img{width:200px;max-width:100%;height:80px;object-position:center;object-fit:cover}#cookie-alert{background-color:#ffefef;color:rgb(30,30,30);padding:15px;text-align:center;font-family:Arial,sans-serif;font-size:14px;margin-top:20px;display:flex;justify-content:center;align-items:center;gap:10px;border:3px solid #ff7b7b;border-radius:10px;margin-bottom:10px}#cookie-alert a{color:#0055ff;text-decoration:none}#cookie-alert a:hover{text-decoration:underline}.content{margin-bottom:50px}
 @media (max-width: 768px) {h1 {font-size: 2rem;}.btn {font-size: 1rem;padding: 8px 16px;}}
 </style>
 </head>
 <body>
 <div class="container">
-  <h4 class="text-center">
-    <img src="https://chronolysia.github.io/chronolysia/img/chronolysia.png" alt=""/><br>Exploration to the Unknown
-  </h4>
+  <h4 class="text-center"><img src="https://chronolysia.github.io/chronolysia/img/chronolysia.png" alt=""/><br>Exploration to the Unknown</h4>
   <div id="cookie-alert">
-    <p>By using chronolysia or its services, you accept our <a href="https://raw.githubusercontent.com/chronolysia/chronolysia/refs/heads/main/LICENSE" target="_blank">Cookies and Privacy Policy</a>.</p>
+    <p>By using chronolysia or its services, you accept our <a href="https://raw.githubusercontent.com/chronolysia/chronolysia/refs/heads/main/LICENSE" target="_blank">TERMS AND CONDITIONS</a>.</p>
   </div>
   <div class="text-center">
-    <small>Select your language below:</small>
+    <small>Not redirected? Select your language below:</small>
   </div>
   <div class="d-flex">
     <label for="filterlang">Languages</label>
@@ -369,6 +242,90 @@ searchInput.addEventListener('input', function() {
       item.classList.add('hidden');
     }
   });
+});
+</script>
+<script>
+const userLang = navigator.language || navigator.userLanguage;
+const languageLinks = [
+  { code: 'en', link: './en/', label: 'English' },
+  { code: 'zh', link: './zh/', label: '中文' },
+  { code: 'hi', link: './hi/', label: 'हिन्दी' },
+  { code: 'es', link: './es/', label: 'Español' },
+  { code: 'fr', link: './fr/', label: 'Français' },
+  { code: 'ar', link: './ar/', label: 'العربية' },
+  { code: 'bn', link: './bn/', label: 'বাংলা' },
+  { code: 'pt', link: './pt/', label: 'Português' },
+  { code: 'ru', link: './ru/', label: 'Русский' },
+  { code: 'ja', link: './ja/', label: '日本語' },
+  { code: 'de', link: './de/', label: 'Deutsch' },
+  { code: 'ko', link: './ko/', label: '한국어' },
+  { code: 'it', link: './it/', label: 'Italiano' },
+  { code: 'tr', link: './tr/', label: 'Türkçe' },
+  { code: 'pl', link: './pl/', label: 'Polski' },
+  { code: 'uk', link: './uk/', label: 'Українська' },
+  { code: 'ro', link: './ro/', label: 'Română' },
+  { code: 'nl', link: './nl/', label: 'Nederlands' },
+  { code: 'vi', link: './vi/', label: 'Tiếng Việt' },
+  { code: 'th', link: './th/', label: 'ไทย' },
+  { code: 'el', link: './el/', label: 'Ελληνικά' },
+  { code: 'ms', link: './ms/', label: 'Bahasa Melayu' },
+  { code: 'fa', link: './fa/', label: 'فارسی' },
+  { code: 'sv', link: './sv/', label: 'Svenska' },
+  { code: 'no', link: './no/', label: 'Norsk' },
+  { code: 'da', link: './da/', label: 'Dansk' },
+  { code: 'fi', link: './fi/', label: 'Suomi' },
+  { code: 'cs', link: './cs/', label: 'Čeština' },
+  { code: 'hu', link: './hu/', label: 'Magyar' },
+  { code: 'sk', link: './sk/', label: 'Slovenčina' },
+  { code: 'he', link: './he/', label: 'עברית' },
+  { code: 'bg', link: './bg/', label: 'Български' },
+  { code: 'sr', link: './sr/', label: 'Srpski' },
+  { code: 'hr', link: './hr/', label: 'Hrvatski' },
+  { code: 'bs', link: './bs/', label: 'Bosanski' },
+  { code: 'sl', link: './sl/', label: 'Slovenščina' },
+  { code: 'et', link: './et/', label: 'Eesti' },
+  { code: 'la', link: './la/', label: 'Latina' },
+  { code: 'sw', link: './sw/', label: 'Kiswahili' },
+  { code: 'sq', link: './sq/', label: 'Shqip' },
+  { code: 'ca', link: './ca/', label: 'Català' },
+  { code: 'mt', link: './mt/', label: 'Maltese' },
+  { code: 'is', link: './is/', label: 'Íslenska' },
+  { code: 'tl', link: './tl/', label: 'Tagalog' },
+  { code: 'lv', link: './lv/', label: 'Latviešu' },
+  { code: 'lt', link: './lt/', label: 'Lietuvių' },
+  { code: 'ne', link: './ne/', label: 'नेपाली' },
+  { code: 'pa', link: './pa/', label: 'ਪੰਜਾਬੀ' },
+  { code: 'te', link: './te/', label: 'తెలుగు' },
+  { code: 'ml', link: './ml/', label: 'മലയാളം' },
+  { code: 'mr', link: './mr/', label: 'मराठी' },
+  { code: 'ta', link: './ta/', label: 'தமிழ்' },
+  { code: 'kn', link: './kn/', label: 'ಕನ್ನಡ' },
+  { code: 'gu', link: './gu/', label: 'ગુજરાતી' },
+  { code: 'or', link: './or/', label: 'ଓଡ଼ିଆ' },
+  { code: 'si', link: './si/', label: 'සිංහල' },
+  { code: 'hy', link: './hy/', label: 'Հայերեն' },
+  { code: 'km', link: './km/', label: 'ខ្មែរ' },
+  { code: 'lo', link: './lo/', label: 'ລາວ' },
+  { code: 'my', link: './my/', label: 'မြန်မာ' },
+  { code: 'np', link: './np/', label: 'नेपाली' },
+  { code: 'am', link: './am/', label: 'አማርኛ' },
+  { code: 'mi', link: './mi/', label: 'Māori' },
+  { code: 'ba', link: './ba/', label: 'Башҡорт' },
+  { code: 'sq', link: './sq/', label: 'Shqip' },
+  { code: 'az', link: './az/', label: 'Azərbaycan' },
+  { code: 'af', link: './af/', label: 'Afrikaans' },
+  { code: 'be', link: './be/', label: 'Беларуская' },
+  { code: 'ps', link: './ps/', label: 'پښتو' },
+  { code: 'uz', link: './uz/', label: 'O\'zbek' },
+  { code: 'mn', link: './mn/', label: 'Монгол' },
+  { code: 'yi', link: './yi/', label: 'Yiddish' },
+  { code: 'sd', link: './sd/', label: 'سنڌی' }
+];
+languageLinks.forEach(lang => {
+  if (userLang.startsWith(lang.code)) {
+    const currentLink = lang.link;
+    window.location = currentLink;
+  }
 });
 </script>
 </body>
